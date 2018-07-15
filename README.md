@@ -4,9 +4,11 @@
 
 Prerequisite technology Stack on your laptop 
 
-1- Ansible
-2- Docker
-3- Vagrant
+1- Ansible.
+
+2- Docker.
+
+3- Vagrant.
 
 To run the server application hello-dropwizard please clone or download the repository at your machine. 
 
