@@ -25,7 +25,7 @@ http://localhost:7000/hello-world?name=World
 
 and you can SSH inside the docker container by 
 
-#ssh root@127.0.0.1 and please use "bashar123" as password
+ssh root@127.0.0.1 and please use "bashar123" as password
  
 How the application work: 
 
