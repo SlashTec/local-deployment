@@ -1,0 +1,13 @@
+---
+
+- name: Build the hello-world project
+  command: >
+    chdir=/tmp/hello-dropwizard mvn package
+  tags: hello-world
+
+- name: Run the hello-world
+  become: yes
+  become_user: root
+  command: java -jar /tmp/hello-dropwizard/target/hello-dropwizard-1.0-SNAPSHOT.jar server /tmp/hello-dropwizard/example.yaml
+  tags: hello-world
+  ignore_errors: yes
