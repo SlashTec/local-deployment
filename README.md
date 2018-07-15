@@ -38,3 +38,9 @@ Ansible roles to create the following:
   - project build 
 
  
+Sorry i couldn't show you the htto routing as i had several meetings with my team and couple of clients. but i will use a proxy to do the http routing and i prefer nginx over express (nodejs) as it can has more features. If i have time tomrrow i will install nginx through ansible with the right configuration. 
+
+Sorry but my time was really limited.
+
+Best Regards 
+Bashar Shannak 
